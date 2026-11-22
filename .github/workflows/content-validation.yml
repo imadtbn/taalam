@@ -26,3 +26,9 @@ jobs:
         run: node scripts/validate-content.mjs content/samples/reading-demo.json
       - name: Run content validator tests
         run: node --test tests/content-validator.test.mjs
+      - name: Install Playwright
+        run: npm install --no-save playwright
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Run prototype browser smoke test
+        run: node --test tests/prototype.browser.test.mjs
