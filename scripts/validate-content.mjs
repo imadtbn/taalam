@@ -67,8 +67,9 @@ else {
         for (const [ai, activity] of lesson.activities.entries()) {
           const ap = `${lp}.activities[${ai}]`;
           if (!isObject(activity)) { errors.push(`${ap}: expected object`); continue; }
-          required(activity, ["id", "type", "instructions", "data", "media"], ap);
+          required(activity, ["id", "title", "type", "instructions", "data", "media"], ap);
           if (!validId(activity.id)) errors.push(`${ap}.id: invalid id`);
+          if (typeof activity.title !== "string" || !activity.title.trim()) errors.push(`${ap}.title: expected non-empty string`);
           if (!["text", "image", "audio", "video", "multiple-choice", "true-false", "matching", "ordering", "fill-blank", "drawing"].includes(activity.type)) errors.push(`${ap}.type: unsupported activity type`);
           if (typeof activity.instructions !== "string") errors.push(`${ap}.instructions: expected string`);
           if (!isObject(activity.data)) errors.push(`${ap}.data: expected object`);
