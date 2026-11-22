@@ -24,6 +24,8 @@ jobs:
           node-version: 22
       - name: Validate sample content
         run: node scripts/validate-content.mjs content/samples/reading-demo.json
+      - name: Validate preparatory book index
+        run: node scripts/validate-content.mjs content/books/taallamati-aloula-preparatory-arabic/book.json
       - name: Run content validator tests
         run: node --test tests/content-validator.test.mjs
       - name: Install Playwright
