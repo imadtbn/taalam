@@ -1,11 +1,11 @@
 {
-  "name": "مكتبتي الملوّنة — الصف الأول الابتدائي",
-  "short_name": "مكتبتي الملوّنة",
+  "name": "تعلّم — المكتبة التعليمية الجزائرية",
+  "short_name": "تعلّم",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "dir": "rtl",
   "lang": "ar",
-  "background_color": "#e7f5ff",
-  "theme_color": "#3aa0e0"
+  "background_color": "#f5f8f4",
+  "theme_color": "#176b48"
 }

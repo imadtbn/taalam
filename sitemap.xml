@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://imadtbn.github.io/taalam/</loc></url>
-<url><loc>https://imadtbn.github.io/taalam/reading/</loc></url>
-<url><loc>https://imadtbn.github.io/taalam/math/</loc></url>
-<url><loc>https://imadtbn.github.io/taalam/science/</loc></url>
-<url><loc>https://imadtbn.github.io/taalam/islamic/</loc></url>
-<url><loc>https://imadtbn.github.io/taalam/english/</loc></url>
-<url><loc>https://imadtbn.github.io/taalam/ethics/</loc></url>
+  <url>
+    <loc>https://imadtbn.github.io/taalam/</loc>
+  </url>
 </urlset>

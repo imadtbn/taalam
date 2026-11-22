@@ -75,8 +75,8 @@ test("rejects malformed JSON with a usage/data error exit code", () => {
 
 test("prototype progress key remains isolated from production progress", () => {
   const html = readFileSync(join(root, "prototype/index.html"), "utf8");
-  assert.match(html, /taalam:prototype:progress:v1:reading/);
+  assert.match(html, /taalam:prototype:progress:v1:demo-book/);
   assert.match(html, /noindex,nofollow/);
   assert.match(html, /\.\.\/content\/samples\/reading-demo\.json/);
-  assert.doesNotMatch(html, /taalam:progress:v1:reading/);
+  assert.doesNotMatch(html, /taalam:progress:v1:demo-book/);
 });

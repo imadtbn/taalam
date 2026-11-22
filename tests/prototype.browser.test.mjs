@@ -54,8 +54,8 @@ test("book prototype renders, responds, persists progress, and fits mobile viewp
   assert.equal(await page.locator('[data-complete="lesson-demo-01"]').isDisabled(), true);
 
   const stored = await page.evaluate(() => ({
-    progress: JSON.parse(localStorage.getItem("taalam:prototype:progress:v1:reading")),
-    productionKey: localStorage.getItem("taalam:progress:v1:reading")
+    progress: JSON.parse(localStorage.getItem("taalam:prototype:progress:v1:demo-book")),
+    productionKey: localStorage.getItem("taalam:progress:v1:demo-book")
   }));
   assert.deepEqual(stored.progress.completedLessons, ["lesson-demo-01"]);
   assert.equal(stored.productionKey, null);
