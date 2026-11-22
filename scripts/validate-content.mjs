@@ -41,7 +41,7 @@ else {
   if (!validId(book.bookId)) errors.push("book.bookId: expected lowercase kebab-case id");
   if (typeof book.title !== "string" || !book.title.trim()) errors.push("book.title: expected non-empty string");
   if (book.curriculum !== "algerian") errors.push('book.curriculum: expected "algerian"');
-  if (book.grade !== "primary-1") errors.push('book.grade: expected "primary-1"');
+  if (!["primary-1", "preparatory"].includes(book.grade)) errors.push('book.grade: expected "primary-1" or "preparatory"');
   if (!["ar", "en", "fr", "mixed"].includes(book.language)) errors.push("book.language: unsupported language");
   if (!Array.isArray(book.units)) errors.push("book.units: expected array");
   else {
@@ -67,8 +67,9 @@ else {
         for (const [ai, activity] of lesson.activities.entries()) {
           const ap = `${lp}.activities[${ai}]`;
           if (!isObject(activity)) { errors.push(`${ap}: expected object`); continue; }
-          required(activity, ["id", "type", "instructions", "data", "media"], ap);
+          required(activity, ["id", "title", "type", "instructions", "data", "media"], ap);
           if (!validId(activity.id)) errors.push(`${ap}.id: invalid id`);
+          if (typeof activity.title !== "string" || !activity.title.trim()) errors.push(`${ap}.title: expected non-empty string`);
           if (!["text", "image", "audio", "video", "multiple-choice", "true-false", "matching", "ordering", "fill-blank", "drawing"].includes(activity.type)) errors.push(`${ap}.type: unsupported activity type`);
           if (typeof activity.instructions !== "string") errors.push(`${ap}.instructions: expected string`);
           if (!isObject(activity.data)) errors.push(`${ap}.data: expected object`);

@@ -1,0 +1,1025 @@
+{
+  "schemaVersion": "1.0.0",
+  "bookId": "taallamati-aloula-preparatory-arabic",
+  "title": "تعلماتي الأولى – دفتر الأنشطة اللغوية للتربية التحضيرية",
+  "subject": "الأنشطة اللغوية",
+  "curriculum": "algerian",
+  "grade": "preparatory",
+  "edition": "الطبعة الأولى، 2008",
+  "language": "ar",
+  "direction": "rtl",
+  "contentVersion": "0.1.0",
+  "source": {
+    "title": "تعلماتي الأولى في التربية التحضيرية: الأنشطة اللغوية",
+    "publisher": "وزارة التربية الوطنية – الجمهورية الجزائرية الديمقراطية الشعبية",
+    "publicationYear": 2008,
+    "notes": "الكتاب موجه لأطفال 5–6 سنوات. بيانات الغلاف والطبعة موثقة من الصفحات 1 و3 و94 و96. فهرسة الأنشطة مستندة إلى الفهرس في الصفحة 9 والتمارين المصورة في الصفحات 13–87. الوحدات هنا تجميع تقني وفق قسمي القراءة والتخطيط والكتابة الظاهرين في المصدر وليست وحدات رسمية مرقمة."
+  },
+  "units": [
+    {
+      "id": "reading",
+      "title": "القراءة",
+      "order": 1,
+      "description": "تجميع تقني لأنشطة القراءة والقصص، مع الاحتفاظ برقم التمرين الأصلي.",
+      "lessons": [
+        {
+          "id": "reading-activities",
+          "title": "أنشطة القراءة والقصص",
+          "order": 1,
+          "activities": [
+            {
+              "id": "exercise-01",
+              "title": "أقارن بين صورتين",
+              "type": "matching",
+              "instructions": "صل كل أداة على اليمين بالأداة التي تشبهها على اليسار.",
+              "data": {
+                "exerciseNumber": 1,
+                "sourcePage": 13,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-02",
+              "title": "أقارن بين صورتين",
+              "type": "matching",
+              "instructions": "اربط كل صورة بالصورة التي تشبهها.",
+              "data": {
+                "exerciseNumber": 2,
+                "sourcePage": 14,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-04",
+              "title": "أقارن بين صورتين",
+              "type": "matching",
+              "instructions": "صل كل إناء بما يشبهه.",
+              "data": {
+                "exerciseNumber": 4,
+                "sourcePage": 16,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-05",
+              "title": "أقارن بين صورتين",
+              "type": "matching",
+              "instructions": "اربط كل صورة بمثيلتها.",
+              "data": {
+                "exerciseNumber": 5,
+                "sourcePage": 17,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-07",
+              "title": "أقارن بين صورتين",
+              "type": "matching",
+              "instructions": "صل كل أداة بمثيلتها.",
+              "data": {
+                "exerciseNumber": 7,
+                "sourcePage": 19,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-08",
+              "title": "أسمع ب",
+              "type": "multiple-choice",
+              "instructions": "لوّن القرص عندما تسمع صوت (ب) في الكلمات.",
+              "data": {
+                "exerciseNumber": 8,
+                "sourcePage": 20,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-10",
+              "title": "أربط الصورة بالكلمة",
+              "type": "matching",
+              "instructions": "صل كل كلمة بالصورة المناسبة لها.",
+              "data": {
+                "exerciseNumber": 10,
+                "sourcePage": 22,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-11",
+              "title": "أسمع ت",
+              "type": "multiple-choice",
+              "instructions": "لوّن القرص عندما تسمع صوت (ت) في الكلمات.",
+              "data": {
+                "exerciseNumber": 11,
+                "sourcePage": 23,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-13",
+              "title": "أربط الصورة بالكلمة",
+              "type": "matching",
+              "instructions": "صل كل حيوان باسمه.",
+              "data": {
+                "exerciseNumber": 13,
+                "sourcePage": 25,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-14",
+              "title": "أسمع ج",
+              "type": "multiple-choice",
+              "instructions": "لوّن القرص عندما تسمع صوت (ج) في الكلمات.",
+              "data": {
+                "exerciseNumber": 14,
+                "sourcePage": 26,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-16",
+              "title": "العنزة والذئب – قراءة القصة",
+              "type": "text",
+              "instructions": "استمع إلى القصة وتابع أحداثها.",
+              "data": {
+                "exerciseNumber": 16,
+                "sourcePage": 28,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-17",
+              "title": "العنزة والذئب – ترتيب أحداث القصة",
+              "type": "ordering",
+              "instructions": "قص مشاهد القصة من الملحق ثم الصقها حسب تسلسل الأحداث.",
+              "data": {
+                "exerciseNumber": 17,
+                "sourcePage": 29,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-19",
+              "title": "أربط الكلمة بالصورة",
+              "type": "matching",
+              "instructions": "صل اسم كل خضرة بصورتها.",
+              "data": {
+                "exerciseNumber": 19,
+                "sourcePage": 31,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-20",
+              "title": "أسمع ل",
+              "type": "multiple-choice",
+              "instructions": "لوّن القرص عندما تسمع صوت (ل) في الكلمات.",
+              "data": {
+                "exerciseNumber": 20,
+                "sourcePage": 32,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-22",
+              "title": "أربط الكلمة بالكلمة",
+              "type": "matching",
+              "instructions": "اربط كل كلمة بمثيلتها.",
+              "data": {
+                "exerciseNumber": 22,
+                "sourcePage": 34,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-23",
+              "title": "أسمع ص",
+              "type": "multiple-choice",
+              "instructions": "لوّن القرص عندما تسمع صوت (ص) في الكلمات.",
+              "data": {
+                "exerciseNumber": 23,
+                "sourcePage": 35,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-25",
+              "title": "أربط بين الكلمة والكلمة",
+              "type": "matching",
+              "instructions": "صل كل كلمة بالكلمة التي تشبهها.",
+              "data": {
+                "exerciseNumber": 25,
+                "sourcePage": 37,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-26",
+              "title": "أسمع ش",
+              "type": "multiple-choice",
+              "instructions": "لوّن القرص عندما تسمع صوت (ش) في الكلمات.",
+              "data": {
+                "exerciseNumber": 26,
+                "sourcePage": 38,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-28",
+              "title": "الشمس والريح – قراءة القصة",
+              "type": "text",
+              "instructions": "اقرأ القصة وتابع أحداث الحوار.",
+              "data": {
+                "exerciseNumber": 28,
+                "sourcePage": 40,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-29",
+              "title": "الشمس والريح – ترتيب أحداث القصة",
+              "type": "ordering",
+              "instructions": "قص مشاهد القصة من الملحق ثم الصقها حسب تسلسل الأحداث.",
+              "data": {
+                "exerciseNumber": 29,
+                "sourcePage": 41,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-31",
+              "title": "أربط الصورة بالجملة",
+              "type": "matching",
+              "instructions": "ضع علامة أمام الجملة المناسبة للصورة.",
+              "data": {
+                "exerciseNumber": 31,
+                "sourcePage": 43,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-32",
+              "title": "أسمع ث",
+              "type": "multiple-choice",
+              "instructions": "لوّن القرص عندما تسمع صوت (ث) في الكلمات.",
+              "data": {
+                "exerciseNumber": 32,
+                "sourcePage": 44,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-34",
+              "title": "أرتب كلمات الجملة",
+              "type": "ordering",
+              "instructions": "قص الكلمات من الملحق ثم رتبها لتكوين الجملة.",
+              "data": {
+                "exerciseNumber": 34,
+                "sourcePage": 46,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-35",
+              "title": "أسمع ك",
+              "type": "multiple-choice",
+              "instructions": "لوّن القرص عندما تسمع صوت (ك) في الكلمات.",
+              "data": {
+                "exerciseNumber": 35,
+                "sourcePage": 47,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-37",
+              "title": "أعين الكلمة في الجملة",
+              "type": "fill-blank",
+              "instructions": "ضع الكلمة الموجودة في الجملة والمماثلة للكلمة المطلوبة في حيزها.",
+              "data": {
+                "exerciseNumber": 37,
+                "sourcePage": 49,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-38",
+              "title": "أسمع ر",
+              "type": "multiple-choice",
+              "instructions": "لوّن القرص عندما تسمع صوت (ر) في الكلمات.",
+              "data": {
+                "exerciseNumber": 38,
+                "sourcePage": 50,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-40",
+              "title": "أعين الكلمة في الجملة",
+              "type": "fill-blank",
+              "instructions": "حدد الكلمة المطلوبة داخل الجملة.",
+              "data": {
+                "exerciseNumber": 40,
+                "sourcePage": 52,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-41",
+              "title": "أربط الجملة بالجملة",
+              "type": "matching",
+              "instructions": "ضع علامة أمام الجملة المناسبة للصورة واربط الجمل المتقابلة.",
+              "data": {
+                "exerciseNumber": 41,
+                "sourcePage": 53,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-43",
+              "title": "أربط الكلمة بجزئها",
+              "type": "matching",
+              "instructions": "صل كل كلمة بالجزء الذي يكملها.",
+              "data": {
+                "exerciseNumber": 43,
+                "sourcePage": 55,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-44",
+              "title": "أربط الحرف بالكلمة",
+              "type": "matching",
+              "instructions": "اربط كل حرف بالكلمة التي تحتويه.",
+              "data": {
+                "exerciseNumber": 44,
+                "sourcePage": 56,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-46",
+              "title": "الدجاجة وحبة القمح – قراءة القصة",
+              "type": "text",
+              "instructions": "اقرأ القصة وتابع أحداثها.",
+              "data": {
+                "exerciseNumber": 46,
+                "sourcePage": 58,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-47",
+              "title": "الدجاجة وحبة القمح – التعبير عن القصة",
+              "type": "drawing",
+              "instructions": "اعتمادا على مشاهد القصة، عبّر عنها وارسم نهاية القصة.",
+              "data": {
+                "exerciseNumber": 47,
+                "sourcePage": 59,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-49",
+              "title": "أربط بين الصوت والحرف (م)",
+              "type": "matching",
+              "instructions": "ضع حيزا حول الحرف (م) كلما وجدته في الكلمة، ولوّن البطاقة عندما تسمع الصوت.",
+              "data": {
+                "exerciseNumber": 49,
+                "sourcePage": 61,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-50",
+              "title": "أربط بين الصوت والحرف (س)",
+              "type": "matching",
+              "instructions": "ضع حيزا حول الحرف (س) كلما وجدته في الكلمة، ولوّن البطاقة عند سماع الصوت.",
+              "data": {
+                "exerciseNumber": 50,
+                "sourcePage": 62,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-52",
+              "title": "أربط بين الصوت والحرف (ف)",
+              "type": "matching",
+              "instructions": "ميّز صوت وحرف (ف) في الكلمات والبطاقات.",
+              "data": {
+                "exerciseNumber": 52,
+                "sourcePage": 64,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-53",
+              "title": "أربط بين الصوت والحرف (ن)",
+              "type": "matching",
+              "instructions": "ميّز صوت وحرف (ن) في الكلمات والبطاقات.",
+              "data": {
+                "exerciseNumber": 53,
+                "sourcePage": 65,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-55",
+              "title": "أربط بين الصوت والحرف (د)",
+              "type": "matching",
+              "instructions": "ميّز صوت وحرف (د) في الكلمات والبطاقات.",
+              "data": {
+                "exerciseNumber": 55,
+                "sourcePage": 67,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-56",
+              "title": "أربط بين الصوت والحرف (ط)",
+              "type": "matching",
+              "instructions": "ميّز صوت وحرف (ط) في الكلمات والبطاقات.",
+              "data": {
+                "exerciseNumber": 56,
+                "sourcePage": 68,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-58",
+              "title": "الحمار والذئب – قراءة القصة",
+              "type": "text",
+              "instructions": "اقرأ القصة وتابع أحداثها.",
+              "data": {
+                "exerciseNumber": 58,
+                "sourcePage": 70,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-59",
+              "title": "الحمار والذئب – ترتيب أحداث القصة",
+              "type": "ordering",
+              "instructions": "رتب مشاهد القصة وفق تسلسل أحداثها.",
+              "data": {
+                "exerciseNumber": 59,
+                "sourcePage": 71,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-61",
+              "title": "أربط بين الصوت والحرف (و)",
+              "type": "matching",
+              "instructions": "ميّز صوت وحرف (و) في الكلمات والبطاقات.",
+              "data": {
+                "exerciseNumber": 61,
+                "sourcePage": 73,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-62",
+              "title": "أربط بين الصوت والحرف (ا)",
+              "type": "matching",
+              "instructions": "ميّز صوت وحرف (ا) في الكلمات والبطاقات.",
+              "data": {
+                "exerciseNumber": 62,
+                "sourcePage": 74,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-64",
+              "title": "أربط بين الصوت والحرف (ج)",
+              "type": "matching",
+              "instructions": "ميّز صوت وحرف (ج) في الكلمات والبطاقات.",
+              "data": {
+                "exerciseNumber": 64,
+                "sourcePage": 76,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-65",
+              "title": "أربط بين الصوت والحرف (ع)",
+              "type": "matching",
+              "instructions": "ميّز صوت وحرف (ع) في الكلمات والبطاقات.",
+              "data": {
+                "exerciseNumber": 65,
+                "sourcePage": 77,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-67",
+              "title": "أشكل كلمات",
+              "type": "ordering",
+              "instructions": "كوّن الكلمة من الحروف المتاحة في الشبكة.",
+              "data": {
+                "exerciseNumber": 67,
+                "sourcePage": 79,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-68",
+              "title": "أشكل كلمات",
+              "type": "ordering",
+              "instructions": "كوّن الكلمات من الحروف المتاحة في الشبكة.",
+              "data": {
+                "exerciseNumber": 68,
+                "sourcePage": 80,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-70",
+              "title": "هاني والحيوانات الأليفة – قراءة النص",
+              "type": "text",
+              "instructions": "اقرأ النص وتعرّف إلى الحيوانات الأليفة.",
+              "data": {
+                "exerciseNumber": 70,
+                "sourcePage": 82,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-71",
+              "title": "هاني والحيوانات الأليفة – التعبير",
+              "type": "drawing",
+              "instructions": "عبّر عن المشهد وارسم الحيوان الذي تفضله.",
+              "data": {
+                "exerciseNumber": 71,
+                "sourcePage": 83,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-73",
+              "title": "أشكل كلمات",
+              "type": "ordering",
+              "instructions": "كوّن الكلمات المقترحة بالاستعانة بشبكة الحروف.",
+              "data": {
+                "exerciseNumber": 73,
+                "sourcePage": 85,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-74",
+              "title": "أشكل كلمات",
+              "type": "ordering",
+              "instructions": "كوّن الكلمات المقترحة بالاستعانة بشبكة الحروف.",
+              "data": {
+                "exerciseNumber": 74,
+                "sourcePage": 86,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planning-writing",
+      "title": "التخطيط والكتابة",
+      "order": 2,
+      "description": "أنشطة رسم الخطوط والحروف والتدريب على الكتابة.",
+      "lessons": [
+        {
+          "id": "planning-writing-activities",
+          "title": "أنشطة التخطيط والكتابة",
+          "order": 1,
+          "activities": [
+            {
+              "id": "exercise-03",
+              "title": "أرسم خطوطا",
+              "type": "drawing",
+              "instructions": "أكمل رسم الخطوط حسب الاتجاه المحدد.",
+              "data": {
+                "exerciseNumber": 3,
+                "sourcePage": 15,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-06",
+              "title": "أرسم خطوطا",
+              "type": "drawing",
+              "instructions": "أكمل رسم الخطوط حسب الاتجاه المحدد.",
+              "data": {
+                "exerciseNumber": 6,
+                "sourcePage": 18,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-09",
+              "title": "أرسم خطوطا",
+              "type": "drawing",
+              "instructions": "أكمل رسم الخطوط حسب الاتجاه المحدد.",
+              "data": {
+                "exerciseNumber": 9,
+                "sourcePage": 21,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-12",
+              "title": "أرسم خطوطا",
+              "type": "drawing",
+              "instructions": "أكمل رسم الخطوط حسب الاتجاه المحدد.",
+              "data": {
+                "exerciseNumber": 12,
+                "sourcePage": 24,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-15",
+              "title": "أرسم خطوطا",
+              "type": "drawing",
+              "instructions": "أكمل رسم الخطوط حسب الاتجاه المحدد.",
+              "data": {
+                "exerciseNumber": 15,
+                "sourcePage": 27,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-18",
+              "title": "أرسم خطوطا",
+              "type": "drawing",
+              "instructions": "أكمل رسم الخطوط حسب الاتجاه المحدد.",
+              "data": {
+                "exerciseNumber": 18,
+                "sourcePage": 30,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-21",
+              "title": "أرسم خطوطا",
+              "type": "drawing",
+              "instructions": "أكمل رسم الخطوط حسب الاتجاه المحدد.",
+              "data": {
+                "exerciseNumber": 21,
+                "sourcePage": 33,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-24",
+              "title": "أرسم خطوطا",
+              "type": "drawing",
+              "instructions": "أكمل رسم الخطوط حسب الاتجاه المحدد.",
+              "data": {
+                "exerciseNumber": 24,
+                "sourcePage": 36,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-27",
+              "title": "أرسم حروفا (ا)",
+              "type": "drawing",
+              "instructions": "أتمم كتابة الحرف (ا).",
+              "data": {
+                "exerciseNumber": 27,
+                "sourcePage": 39,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-30",
+              "title": "أرسم حروفا (ل)",
+              "type": "drawing",
+              "instructions": "أتمم كتابة الحرف (ل).",
+              "data": {
+                "exerciseNumber": 30,
+                "sourcePage": 42,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-33",
+              "title": "أرسم حروفا (ر)",
+              "type": "drawing",
+              "instructions": "أتمم كتابة الحرف (ر).",
+              "data": {
+                "exerciseNumber": 33,
+                "sourcePage": 45,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-36",
+              "title": "أرسم حروفا (ب)",
+              "type": "drawing",
+              "instructions": "أتمم كتابة الحرف (ب).",
+              "data": {
+                "exerciseNumber": 36,
+                "sourcePage": 48,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-39",
+              "title": "أرسم حروفا (ن)",
+              "type": "drawing",
+              "instructions": "أتمم كتابة الحرف (ن).",
+              "data": {
+                "exerciseNumber": 39,
+                "sourcePage": 51,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-42",
+              "title": "أرسم حروفا (د)",
+              "type": "drawing",
+              "instructions": "أتمم كتابة الحرف (د).",
+              "data": {
+                "exerciseNumber": 42,
+                "sourcePage": 54,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-45",
+              "title": "أرسم حروفا (ك)",
+              "type": "drawing",
+              "instructions": "أتمم كتابة الحرف (ك).",
+              "data": {
+                "exerciseNumber": 45,
+                "sourcePage": 57,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-48",
+              "title": "أرسم حروفا (و)",
+              "type": "drawing",
+              "instructions": "أتمم كتابة الحرف (و).",
+              "data": {
+                "exerciseNumber": 48,
+                "sourcePage": 60,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-51",
+              "title": "أرسم حروفا (ف)",
+              "type": "drawing",
+              "instructions": "أتمم كتابة الحرف (ف).",
+              "data": {
+                "exerciseNumber": 51,
+                "sourcePage": 63,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-54",
+              "title": "أرسم حروفا (ق)",
+              "type": "drawing",
+              "instructions": "أتمم كتابة الحرف (ق).",
+              "data": {
+                "exerciseNumber": 54,
+                "sourcePage": 66,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-57",
+              "title": "أرسم حروفا (س)",
+              "type": "drawing",
+              "instructions": "أتمم كتابة الحرف (س).",
+              "data": {
+                "exerciseNumber": 57,
+                "sourcePage": 69,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-60",
+              "title": "أرسم حروفا (ش)",
+              "type": "drawing",
+              "instructions": "أتمم كتابة الحرف (ش).",
+              "data": {
+                "exerciseNumber": 60,
+                "sourcePage": 72,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-63",
+              "title": "أرسم حروفا (ج)",
+              "type": "drawing",
+              "instructions": "أتمم كتابة الحرف (ج).",
+              "data": {
+                "exerciseNumber": 63,
+                "sourcePage": 75,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-66",
+              "title": "أرسم حروفا (م)",
+              "type": "drawing",
+              "instructions": "أتمم كتابة الحرف (م).",
+              "data": {
+                "exerciseNumber": 66,
+                "sourcePage": 78,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-69",
+              "title": "أرسم حروفا (ع)",
+              "type": "drawing",
+              "instructions": "أتمم كتابة الحرف (ع).",
+              "data": {
+                "exerciseNumber": 69,
+                "sourcePage": 81,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-72",
+              "title": "أرسم حروفا (ط)",
+              "type": "drawing",
+              "instructions": "أتمم كتابة الحرف (ط).",
+              "data": {
+                "exerciseNumber": 72,
+                "sourcePage": 84,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            },
+            {
+              "id": "exercise-75",
+              "title": "أرسم حروفا (ص)",
+              "type": "drawing",
+              "instructions": "أتمم كتابة الحرف (ص).",
+              "data": {
+                "exerciseNumber": 75,
+                "sourcePage": 87,
+                "transcriptionStatus": "catalogued",
+                "mediaStatus": "page-artwork-not-extracted"
+              },
+              "media": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
