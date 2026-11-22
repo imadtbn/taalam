@@ -8,7 +8,7 @@
   "edition": "الطبعة الأولى، 2008",
   "language": "ar",
   "direction": "rtl",
-  "contentVersion": "0.1.0",
+  "contentVersion": "0.2.0",
   "source": {
     "title": "تعلماتي الأولى في التربية التحضيرية: الأنشطة اللغوية",
     "publisher": "وزارة التربية الوطنية – الجمهورية الجزائرية الديمقراطية الشعبية",
@@ -35,8 +35,35 @@
               "data": {
                 "exerciseNumber": 1,
                 "sourcePage": 13,
-                "transcriptionStatus": "catalogued",
-                "mediaStatus": "page-artwork-not-extracted"
+                "transcriptionStatus": "page-reviewed",
+                "mediaStatus": "pending-independent-extraction",
+                "objectives": [
+                  "يفهم علاقة بين صورتين متشابهتين",
+                  "يسمي بعض الأدوات المدرسية"
+                ],
+                "picturedItems": [
+                  {
+                    "left": "كتاب",
+                    "right": "قلم"
+                  },
+                  {
+                    "left": "محفظة مدرسية",
+                    "right": "سبورة"
+                  },
+                  {
+                    "left": "قلم رصاص",
+                    "right": "دفتر"
+                  },
+                  {
+                    "left": "مقص",
+                    "right": "حقيبة"
+                  },
+                  {
+                    "left": "لوح كتابة",
+                    "right": "مقص"
+                  }
+                ],
+                "itemsRequireTeacherAudio": true
               },
               "media": []
             },
@@ -48,8 +75,35 @@
               "data": {
                 "exerciseNumber": 2,
                 "sourcePage": 14,
-                "transcriptionStatus": "catalogued",
-                "mediaStatus": "page-artwork-not-extracted"
+                "transcriptionStatus": "page-reviewed",
+                "mediaStatus": "pending-independent-extraction",
+                "objectives": [
+                  "يفهم علاقة بين صورتين متشابهتين",
+                  "يسمي بعض الأدوات المنزلية"
+                ],
+                "picturedItems": [
+                  {
+                    "left": "طاولة",
+                    "right": "طاولة"
+                  },
+                  {
+                    "left": "خزانة",
+                    "right": "خزانة"
+                  },
+                  {
+                    "left": "كرسي",
+                    "right": "كرسي"
+                  },
+                  {
+                    "left": "ثلاجة",
+                    "right": "ثلاجة"
+                  },
+                  {
+                    "left": "هاتف",
+                    "right": "هاتف"
+                  }
+                ],
+                "itemsRequireTeacherAudio": true
               },
               "media": []
             },
@@ -61,8 +115,20 @@
               "data": {
                 "exerciseNumber": 4,
                 "sourcePage": 16,
-                "transcriptionStatus": "catalogued",
-                "mediaStatus": "page-artwork-not-extracted"
+                "transcriptionStatus": "page-reviewed",
+                "mediaStatus": "pending-independent-extraction",
+                "objectives": [
+                  "يفهم علاقة بين صورتين متشابهتين",
+                  "يسمي بعض أواني المطبخ"
+                ],
+                "picturedItems": [
+                  "ملعقة",
+                  "جرة",
+                  "إبريق شاي",
+                  "وعاء",
+                  "كأس"
+                ],
+                "itemsRequireTeacherAudio": true
               },
               "media": []
             },
@@ -74,8 +140,20 @@
               "data": {
                 "exerciseNumber": 5,
                 "sourcePage": 17,
-                "transcriptionStatus": "catalogued",
-                "mediaStatus": "page-artwork-not-extracted"
+                "transcriptionStatus": "page-reviewed",
+                "mediaStatus": "pending-independent-extraction",
+                "objectives": [
+                  "يفهم علاقة بين صورتين متماثلتين",
+                  "يسمي بعض المرافق المكتوبة"
+                ],
+                "picturedItems": [
+                  "جريدة",
+                  "إشارة مرور",
+                  "كتاب",
+                  "علامة مرور تحذيرية",
+                  "دفتر"
+                ],
+                "itemsRequireTeacherAudio": true
               },
               "media": []
             },
@@ -87,8 +165,21 @@
               "data": {
                 "exerciseNumber": 7,
                 "sourcePage": 19,
-                "transcriptionStatus": "catalogued",
-                "mediaStatus": "page-artwork-not-extracted"
+                "transcriptionStatus": "page-reviewed",
+                "mediaStatus": "pending-independent-extraction",
+                "objectives": [
+                  "يفهم علاقة بين صورتين متماثلتين",
+                  "يفهم علاقة بين الدال والمدلول",
+                  "يسمي أدوات النظافة"
+                ],
+                "picturedItems": [
+                  "صابون",
+                  "فرشاة",
+                  "منشفة",
+                  "مشط",
+                  "مرآة"
+                ],
+                "itemsRequireTeacherAudio": true
               },
               "media": []
             },
@@ -96,12 +187,29 @@
               "id": "exercise-08",
               "title": "أسمع ب",
               "type": "multiple-choice",
-              "instructions": "لوّن القرص عندما تسمع صوت (ب) في الكلمات.",
+              "instructions": "لوّن القرص عندما تسمع الصوت (ب) في الكلمات.",
               "data": {
                 "exerciseNumber": 8,
                 "sourcePage": 20,
-                "transcriptionStatus": "catalogued",
-                "mediaStatus": "page-artwork-not-extracted"
+                "transcriptionStatus": "page-reviewed",
+                "mediaStatus": "pending-independent-extraction",
+                "objectives": [
+                  "يميز صوتا في كلمة",
+                  "يستعمل مفردات"
+                ],
+                "targetSound": "ب",
+                "picturedItems": [
+                  "أرنب",
+                  "كتاب",
+                  "باب",
+                  "بقرة",
+                  "ببغاء",
+                  "هاتف",
+                  "عنب",
+                  "تلفاز"
+                ],
+                "reviewNote": "الصفحة لا تطبع الكلمات بجانب الصور؛ أسماء الصور وصف لما يظهر بصريا، ويجب عدم اعتبارها قائمة تسجيل صوتي أصلية.",
+                "itemsRequireTeacherAudio": true
               },
               "media": []
             },
@@ -113,8 +221,35 @@
               "data": {
                 "exerciseNumber": 10,
                 "sourcePage": 22,
-                "transcriptionStatus": "catalogued",
-                "mediaStatus": "page-artwork-not-extracted"
+                "transcriptionStatus": "page-reviewed",
+                "mediaStatus": "pending-independent-extraction",
+                "objectives": [
+                  "يربط الصورة بالكلمة",
+                  "يفهم علاقة بين الدال والمدلول",
+                  "يسمي بعض الفواكه"
+                ],
+                "matchingPairs": [
+                  {
+                    "word": "موزة",
+                    "image": "موزة"
+                  },
+                  {
+                    "word": "رمان",
+                    "image": "رمان"
+                  },
+                  {
+                    "word": "عنب",
+                    "image": "عنب"
+                  },
+                  {
+                    "word": "تفاحة",
+                    "image": "تفاحة"
+                  },
+                  {
+                    "word": "برتقالة",
+                    "image": "برتقالة"
+                  }
+                ]
               },
               "media": []
             },
@@ -122,12 +257,29 @@
               "id": "exercise-11",
               "title": "أسمع ت",
               "type": "multiple-choice",
-              "instructions": "لوّن القرص عندما تسمع صوت (ت) في الكلمات.",
+              "instructions": "لوّن القرص عندما تسمع الصوت (ت) في الكلمات.",
               "data": {
                 "exerciseNumber": 11,
                 "sourcePage": 23,
-                "transcriptionStatus": "catalogued",
-                "mediaStatus": "page-artwork-not-extracted"
+                "transcriptionStatus": "page-reviewed",
+                "mediaStatus": "pending-independent-extraction",
+                "objectives": [
+                  "يميز صوتا في كلمة",
+                  "يستعمل مفردات"
+                ],
+                "targetSound": "ت",
+                "picturedItems": [
+                  "ثمار/تمر على غصن",
+                  "مثقاب كهربائي",
+                  "عنب",
+                  "تفاحة",
+                  "قلادة",
+                  "طائرة",
+                  "تلفاز",
+                  "تمساح"
+                ],
+                "reviewNote": "تُراجع تسمية بعض الرسوم مع المصدر/المعلّم قبل اعتماد مفردة صوتية نهائية.",
+                "itemsRequireTeacherAudio": true
               },
               "media": []
             },
@@ -139,8 +291,35 @@
               "data": {
                 "exerciseNumber": 13,
                 "sourcePage": 25,
-                "transcriptionStatus": "catalogued",
-                "mediaStatus": "page-artwork-not-extracted"
+                "transcriptionStatus": "page-reviewed",
+                "mediaStatus": "pending-independent-extraction",
+                "objectives": [
+                  "يربط الصورة بالكلمة",
+                  "يفهم علاقة بين الدال والمدلول",
+                  "يسمي بعض الحيوانات"
+                ],
+                "matchingPairs": [
+                  {
+                    "word": "دجاجة",
+                    "image": "دجاجة"
+                  },
+                  {
+                    "word": "قط",
+                    "image": "قط"
+                  },
+                  {
+                    "word": "سلحفاة",
+                    "image": "سلحفاة"
+                  },
+                  {
+                    "word": "كلب",
+                    "image": "كلب"
+                  },
+                  {
+                    "word": "أرنب",
+                    "image": "أرنب"
+                  }
+                ]
               },
               "media": []
             },
@@ -148,12 +327,28 @@
               "id": "exercise-14",
               "title": "أسمع ج",
               "type": "multiple-choice",
-              "instructions": "لوّن القرص عندما تسمع صوت (ج) في الكلمات.",
+              "instructions": "لوّن القرص عندما تسمع الصوت (ج) في الكلمات.",
               "data": {
                 "exerciseNumber": 14,
                 "sourcePage": 26,
-                "transcriptionStatus": "catalogued",
-                "mediaStatus": "page-artwork-not-extracted"
+                "transcriptionStatus": "page-reviewed",
+                "mediaStatus": "pending-independent-extraction",
+                "objectives": [
+                  "يميز صوتا في كلمة",
+                  "يستعمل مفردات"
+                ],
+                "targetSound": "ج",
+                "picturedItems": [
+                  "جمل",
+                  "رجل",
+                  "دجاجة",
+                  "جزرة",
+                  "قمر",
+                  "نجمة",
+                  "شجرة",
+                  "طبل"
+                ],
+                "itemsRequireTeacherAudio": true
               },
               "media": []
             },
@@ -700,8 +895,16 @@
               "data": {
                 "exerciseNumber": 3,
                 "sourcePage": 15,
-                "transcriptionStatus": "catalogued",
-                "mediaStatus": "page-artwork-not-extracted"
+                "transcriptionStatus": "page-reviewed",
+                "mediaStatus": "pending-independent-extraction",
+                "objectives": [
+                  "يرسم خطوطا في اتجاه محدد",
+                  "يسمي أنواع الخطوط"
+                ],
+                "visualTasks": [
+                  "تتبع خطوط عمودية من الغيوم باتجاه الأسفل",
+                  "أكمل الخطوط المتقطعة داخل السطور وفق الأسهم"
+                ]
               },
               "media": []
             },
@@ -713,8 +916,16 @@
               "data": {
                 "exerciseNumber": 6,
                 "sourcePage": 18,
-                "transcriptionStatus": "catalogued",
-                "mediaStatus": "page-artwork-not-extracted"
+                "transcriptionStatus": "page-reviewed",
+                "mediaStatus": "pending-independent-extraction",
+                "objectives": [
+                  "يرسم خطوطا في اتجاه محدد",
+                  "يسمي أنواع الخطوط"
+                ],
+                "visualTasks": [
+                  "تتبع خطوط أفقية ومتقطعة داخل شكل القميص",
+                  "أكمل أنماط الخطوط داخل المستطيلات حسب الأسهم"
+                ]
               },
               "media": []
             },
@@ -726,8 +937,16 @@
               "data": {
                 "exerciseNumber": 9,
                 "sourcePage": 21,
-                "transcriptionStatus": "catalogued",
-                "mediaStatus": "page-artwork-not-extracted"
+                "transcriptionStatus": "page-reviewed",
+                "mediaStatus": "pending-independent-extraction",
+                "objectives": [
+                  "يرسم خطوطا في اتجاه محدد",
+                  "يسمي أنواع الخطوط"
+                ],
+                "visualTasks": [
+                  "تتبع الخطوط المائلة لتكوين شكل السمكة",
+                  "أكمل الخطوط المائلة المتقطعة داخل السطرين حسب الأسهم"
+                ]
               },
               "media": []
             },
@@ -739,8 +958,16 @@
               "data": {
                 "exerciseNumber": 12,
                 "sourcePage": 24,
-                "transcriptionStatus": "catalogued",
-                "mediaStatus": "page-artwork-not-extracted"
+                "transcriptionStatus": "page-reviewed",
+                "mediaStatus": "pending-independent-extraction",
+                "objectives": [
+                  "يرسم خطوطا في اتجاه محدد",
+                  "يسمي أنواع الخطوط"
+                ],
+                "visualTasks": [
+                  "أكمل رسم حبات عنقود العنب باتباع الدوائر المنقطة",
+                  "تتبع الدوائر داخل السطور منقطة إلى واضحة"
+                ]
               },
               "media": []
             },
@@ -752,8 +979,16 @@
               "data": {
                 "exerciseNumber": 15,
                 "sourcePage": 27,
-                "transcriptionStatus": "catalogued",
-                "mediaStatus": "page-artwork-not-extracted"
+                "transcriptionStatus": "page-reviewed",
+                "mediaStatus": "pending-independent-extraction",
+                "objectives": [
+                  "يرسم خطوطا في اتجاه محدد",
+                  "يسمي أنواع الخطوط"
+                ],
+                "visualTasks": [
+                  "أكمل تتبع أشكال دائرية متتابعة داخل السطر الأول",
+                  "أكمل تتبع الدوائر داخل السطرين التاليين مع احترام اتجاه السهم"
+                ]
               },
               "media": []
             },
