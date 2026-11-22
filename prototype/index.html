@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#176b48">
+  <title>نموذج محرك الكتاب — تعلّم</title>
+  <style>
+    :root{font-family:system-ui,"Noto Sans Arabic",sans-serif;color:#18352a;background:#f4f7f2}
+    *{box-sizing:border-box}body{margin:0}.wrap{max-width:900px;margin:auto;padding:20px}
+    header{background:#176b48;color:white;padding:22px;border-radius:18px}
+    header small{opacity:.85}.notice{margin:14px 0;padding:12px;border:1px solid #e3b85d;background:#fff8e5;border-radius:12px}
+    .unit,.lesson,.activity{background:white;border:1px solid #e3eae4;border-radius:14px;padding:16px;margin:12px 0}
+    .unit h2{margin-top:0}.activity{background:#f8fbf8}.muted{color:#62766a;font-size:.9rem}
+    button{font:inherit;border:0;border-radius:10px;padding:10px 14px;background:#176b48;color:white;cursor:pointer}
+    button:disabled{opacity:.55;cursor:default}.options{display:grid;gap:8px;margin-top:12px}
+    .option{background:#edf4ef;color:#18352a;text-align:right}.option[aria-pressed=true]{outline:2px solid #176b48}
+    .status{margin-top:10px;font-weight:600}.done{color:#176b48}
+  </style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <small>تعلّم · بيئة اختبار معزولة</small>
+    <h1 id="book-title">جارٍ تحميل النموذج…</h1>
+    <p id="book-meta"></p>
+  </header>
+  <div class="notice"><strong>تنبيه:</strong> هذه بيانات تقنية توضيحية وليست محتوى من المنهاج الجزائري. لا تتصل هذه الصفحة بتقدم الكتب الحالية ولا تغيّر بياناتها.</div>
+  <section id="book-content" aria-live="polite"></section>
+</main>
+<script type="module">
+const DATA_URL = "../content/samples/reading-demo.json";
+const PROGRESS_KEY = "taalam:prototype:progress:v1:reading";
+const root = document.querySelector("#book-content");
+const safe = (value) => String(value ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+const readProgress = () => {
+  try { return JSON.parse(localStorage.getItem(PROGRESS_KEY) || '{"completedLessons":[]}'); }
+  catch { return {completedLessons:[]}; }
+};
+const saveProgress = (progress) => localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+
+try {
+  const response = await fetch(DATA_URL);
+  if (!response.ok) throw new Error(`تعذر تحميل ملف البيانات (${response.status})`);
+  const book = await response.json();
+  document.documentElement.lang = book.language === "ar" ? "ar" : book.language;
+  document.documentElement.dir = book.direction || "rtl";
+  document.title = safe(book.title) + " — نموذج تعلّم";
+  document.querySelector("#book-title").textContent = book.title;
+  document.querySelector("#book-meta").textContent = `الصف: السنة الأولى ابتدائي · إصدار البيانات: ${book.contentVersion}`;
+  const progress = readProgress();
+  root.innerHTML = book.units.map(unit => `
+    <section class="unit">
+      <h2>${safe(unit.title)}</h2><p class="muted">${safe(unit.description)}</p>
+      ${unit.lessons.map(lesson => {
+        const completed = progress.completedLessons.includes(lesson.id);
+        return `<article class="lesson">
+          <h3>${safe(lesson.title)}</h3>
+          ${lesson.activities.map(activity => {
+            if (activity.type === "text") return `<div class="activity"><p>${safe(activity.instructions)}</p><p>${safe(activity.data.body)}</p></div>`;
+            if (activity.type === "multiple-choice") return `<div class="activity" data-activity="${safe(activity.id)}">
+              <strong>${safe(activity.instructions)}</strong><p>${safe(activity.data.question)}</p>
+              <div class="options">${(activity.data.options || []).map(option => `<button class="option" data-option="${safe(option.id)}" aria-pressed="false">${safe(option.label)}</button>`).join("")}</div>
+              <p class="status" aria-live="polite"></p>
+            </div>`;
+            return "";
+          }).join("")}
+          <button data-complete="${safe(lesson.id)}" ${completed ? "disabled" : ""}>${completed ? "تم إنجاز الدرس" : "تحديد الدرس كمكتمل"}</button>
+        </article>`;
+      }).join("")}
+    </section>`).join("");
+  root.addEventListener("click", event => {
+    const option = event.target.closest("[data-option]");
+    if (option) {
+      const activityEl = option.closest("[data-activity]");
+      const activity = book.units.flatMap(u=>u.lessons).flatMap(l=>l.activities).find(a=>a.id===activityEl.dataset.activity);
+      activityEl.querySelectorAll("[data-option]").forEach(button=>button.setAttribute("aria-pressed", String(button===option)));
+      const status = activityEl.querySelector(".status");
+      const correct = option.dataset.option === activity.data.correctOptionId;
+      status.textContent = correct ? "اختيار صحيح (اختبار تقني)." : "هذا اختيار غير مطابق لمفتاح بيانات المثال.";
+      status.className = "status " + (correct ? "done" : "");
+    }
+    const complete = event.target.closest("[data-complete]");
+    if (complete) {
+      const current = readProgress();
+      if (!current.completedLessons.includes(complete.dataset.complete)) current.completedLessons.push(complete.dataset.complete);
+      current.updatedAt = new Date().toISOString();
+      saveProgress(current);
+      complete.disabled = true;
+      complete.textContent = "تم إنجاز الدرس";
+    }
+  });
+} catch (error) {
+  root.textContent = error.message;
+}
+</script>
+</body>
+</html>

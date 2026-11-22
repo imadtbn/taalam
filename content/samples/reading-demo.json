@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0.0",
+  "bookId": "reading",
+  "title": "نموذج تجريبي — القراءة",
+  "subject": "القراءة",
+  "curriculum": "algerian",
+  "grade": "primary-1",
+  "edition": null,
+  "language": "ar",
+  "direction": "rtl",
+  "contentVersion": "0.1.0",
+  "source": {
+    "title": "بيانات اختبارية توضيحية",
+    "publisher": "فريق تطوير تعلّم",
+    "publicationYear": null,
+    "notes": "هذا المثال ليس درساً من المنهاج الجزائري ولا يمثل محتوى مدرسياً معتمداً."
+  },
+  "units": [
+    {
+      "id": "unit-demo-01",
+      "title": "وحدة توضيحية",
+      "order": 1,
+      "description": "بيانات شكلية لاختبار عرض الوحدات والدروس والأنشطة.",
+      "lessons": [
+        {
+          "id": "lesson-demo-01",
+          "title": "درس تجريبي",
+          "order": 1,
+          "objectives": ["اختبار عرض عنوان الدرس", "اختبار حفظ حالة الإنجاز"],
+          "activities": [
+            {
+              "id": "activity-demo-01",
+              "type": "text",
+              "instructions": "هذا نص تجريبي فقط. سيستبدل بالمحتوى الذي توفره.",
+              "data": {
+                "body": "لا يحتوي هذا النموذج على نص منهجي أو معلومة تعليمية معتمدة."
+              }
+            },
+            {
+              "id": "activity-demo-02",
+              "type": "multiple-choice",
+              "instructions": "سؤال شكلي لاختبار بنية الاختيار المتعدد.",
+              "data": {
+                "question": "أي عنصر يُستخدم لتعريف النشاط؟",
+                "options": [
+                  { "id": "option-a", "label": "معرّف ثابت" },
+                  { "id": "option-b", "label": "لون البطاقة" }
+                ],
+                "correctOptionId": "option-a",
+                "feedback": "تجربة تقنية فقط، وليست سؤالاً من كتاب مدرسي."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
