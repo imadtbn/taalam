@@ -41,7 +41,7 @@ else {
   if (!validId(book.bookId)) errors.push("book.bookId: expected lowercase kebab-case id");
   if (typeof book.title !== "string" || !book.title.trim()) errors.push("book.title: expected non-empty string");
   if (book.curriculum !== "algerian") errors.push('book.curriculum: expected "algerian"');
-  if (book.grade !== "primary-1") errors.push('book.grade: expected "primary-1"');
+  if (!["primary-1", "preparatory"].includes(book.grade)) errors.push('book.grade: expected "primary-1" or "preparatory"');
   if (!["ar", "en", "fr", "mixed"].includes(book.language)) errors.push("book.language: unsupported language");
   if (!Array.isArray(book.units)) errors.push("book.units: expected array");
   else {
