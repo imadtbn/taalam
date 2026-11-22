@@ -80,3 +80,11 @@ test("prototype progress key remains isolated from production progress", () => {
   assert.match(html, /\.\.\/content\/samples\/reading-demo\.json/);
   assert.doesNotMatch(html, /taalam:progress:v1:demo-book/);
 });
+
+test("rejects activities without the required media array", () => {
+  const book = structuredClone(sample);
+  delete book.units[0].lessons[0].activities[0].media;
+  const result = runWithBook(book);
+  assert.equal(result.status, 1);
+  assert.match(result.stderr, /missing "media"/);
+});
