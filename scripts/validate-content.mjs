@@ -37,7 +37,7 @@ if (!isObject(book)) errors.push("book: root must be an object");
 else {
   required(book, ["schemaVersion", "bookId", "title", "curriculum", "grade", "language", "contentVersion", "units"], "book");
   if (book.schemaVersion !== "1.0.0") errors.push('book.schemaVersion: expected "1.0.0"');
-  if (typeof book.contentVersion !== "string" || !/^\\d+\\.\\d+\\.\\d+$/.test(book.contentVersion)) errors.push("book.contentVersion: expected semantic version x.y.z");
+  if (typeof book.contentVersion !== "string" || !/^\d+\.\d+\.\d+$/.test(book.contentVersion)) errors.push("book.contentVersion: expected semantic version x.y.z");
   if (!validId(book.bookId)) errors.push("book.bookId: expected lowercase kebab-case id");
   if (typeof book.title !== "string" || !book.title.trim()) errors.push("book.title: expected non-empty string");
   if (book.curriculum !== "algerian") errors.push('book.curriculum: expected "algerian"');
