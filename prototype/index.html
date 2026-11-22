@@ -26,12 +26,12 @@
     <h1 id="book-title">جارٍ تحميل النموذج…</h1>
     <p id="book-meta"></p>
   </header>
-  <div class="notice"><strong>تنبيه:</strong> هذه بيانات تقنية توضيحية وليست محتوى من المنهاج الجزائري. لا تتصل هذه الصفحة بتقدم الكتب الحالية ولا تغيّر بياناتها.</div>
+  <div class="notice"><strong>تنبيه:</strong> هذه بيانات تقنية توضيحية وليست محتوى منهجياً معتمداً. لا تتصل هذه الصفحة بتقدم الكتب الحالية ولا تغيّر بياناتها.</div>
   <section id="book-content" aria-live="polite"></section>
 </main>
 <script type="module">
 const DATA_URL = "../content/samples/reading-demo.json";
-const PROGRESS_KEY = "taalam:prototype:progress:v1:reading";
+const PROGRESS_KEY = "taalam:prototype:progress:v1:demo-book";
 const root = document.querySelector("#book-content");
 const safe = (value) => String(value ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
 const readProgress = () => {
