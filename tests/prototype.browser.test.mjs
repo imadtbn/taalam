@@ -43,7 +43,7 @@ test("book prototype renders, responds, persists progress, and fits mobile viewp
   await page.goto(`${baseUrl}/prototype/index.html`);
   await page.locator(".unit").waitFor();
 
-  assert.match(await page.locator("#book-title").innerText(), /نموذج تجريبي/);
+  assert.match(await page.locator("#book-title").innerText(), /نموذج تقني توضيحي/);
   assert.equal(await page.locator(".unit h2").count(), 1);
   assert.equal(await page.locator(".lesson h3").count(), 1);
 
