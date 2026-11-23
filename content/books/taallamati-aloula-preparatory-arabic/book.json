@@ -8,7 +8,7 @@
   "edition": "الطبعة الأولى، 2008",
   "language": "ar",
   "direction": "rtl",
-  "contentVersion": "0.2.1",
+  "contentVersion": "0.2.2",
   "source": {
     "title": "تعلماتي الأولى في التربية التحضيرية: الأنشطة اللغوية",
     "publisher": "وزارة التربية الوطنية – الجمهورية الجزائرية الديمقراطية الشعبية",
@@ -36,7 +36,7 @@
                 "exerciseNumber": 1,
                 "sourcePage": 13,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "pending-independent-extraction",
+                "mediaStatus": "extracted-locally-pending-repository-upload",
                 "objectives": [
                   "يفهم علاقة بين صورتين متشابهتين",
                   "يسمي بعض الأدوات المدرسية"
@@ -69,7 +69,7 @@
                 "exerciseNumber": 2,
                 "sourcePage": 14,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "pending-independent-extraction",
+                "mediaStatus": "extracted-locally-pending-repository-upload",
                 "objectives": [
                   "يفهم علاقة بين صورتين متشابهتين",
                   "يسمي بعض الأدوات المنزلية"
@@ -102,7 +102,7 @@
                 "exerciseNumber": 4,
                 "sourcePage": 16,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "pending-independent-extraction",
+                "mediaStatus": "extracted-locally-pending-repository-upload",
                 "objectives": [
                   "يفهم علاقة بين صورتين متشابهتين",
                   "يسمي بعض أواني المطبخ"
@@ -135,7 +135,7 @@
                 "exerciseNumber": 5,
                 "sourcePage": 17,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "pending-independent-extraction",
+                "mediaStatus": "extracted-locally-pending-repository-upload",
                 "objectives": [
                   "يفهم علاقة بين صورتين متماثلتين",
                   "يسمي بعض العلامات والوسائل المكتوبة المصورة"
@@ -168,7 +168,7 @@
                 "exerciseNumber": 7,
                 "sourcePage": 19,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "pending-independent-extraction",
+                "mediaStatus": "extracted-locally-pending-repository-upload",
                 "objectives": [
                   "يفهم علاقة بين صورتين متماثلتين",
                   "يفهم علاقة بين الدال والمدلول",
@@ -202,7 +202,7 @@
                 "exerciseNumber": 8,
                 "sourcePage": 20,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "pending-independent-extraction",
+                "mediaStatus": "extracted-locally-pending-repository-upload",
                 "objectives": [
                   "يميز صوتا في كلمة",
                   "يستعمل مفردات"
@@ -232,7 +232,7 @@
                 "exerciseNumber": 10,
                 "sourcePage": 22,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "pending-independent-extraction",
+                "mediaStatus": "extracted-locally-pending-repository-upload",
                 "objectives": [
                   "يربط الصورة بالكلمة",
                   "يفهم علاقة بين الدال والمدلول",
@@ -272,7 +272,7 @@
                 "exerciseNumber": 11,
                 "sourcePage": 23,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "pending-independent-extraction",
+                "mediaStatus": "extracted-locally-pending-repository-upload",
                 "objectives": [
                   "يميز صوتا في كلمة",
                   "يستعمل مفردات"
@@ -284,7 +284,7 @@
                   "عنقود عنب",
                   "تفاحة",
                   "قلادة",
-                  "طائرة",
+                  "طائرة مروحية",
                   "تلفاز",
                   "تمساح"
                 ],
@@ -302,7 +302,7 @@
                 "exerciseNumber": 13,
                 "sourcePage": 25,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "pending-independent-extraction",
+                "mediaStatus": "extracted-locally-pending-repository-upload",
                 "objectives": [
                   "يربط الصورة بالكلمة",
                   "يفهم علاقة بين الدال والمدلول",
@@ -342,7 +342,7 @@
                 "exerciseNumber": 14,
                 "sourcePage": 26,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "pending-independent-extraction",
+                "mediaStatus": "extracted-locally-pending-repository-upload",
                 "objectives": [
                   "يميز صوتا في كلمة",
                   "يستعمل مفردات"
@@ -907,7 +907,7 @@
                 "exerciseNumber": 3,
                 "sourcePage": 15,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "pending-independent-extraction",
+                "mediaStatus": "extracted-locally-pending-repository-upload",
                 "objectives": [
                   "يرسم خطوطا في اتجاه محدد",
                   "يسمي أنواع الخطوط"
@@ -928,7 +928,7 @@
                 "exerciseNumber": 6,
                 "sourcePage": 18,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "pending-independent-extraction",
+                "mediaStatus": "extracted-locally-pending-repository-upload",
                 "objectives": [
                   "يرسم خطوطا في اتجاه محدد",
                   "يسمي أنواع الخطوط"
@@ -949,7 +949,7 @@
                 "exerciseNumber": 9,
                 "sourcePage": 21,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "pending-independent-extraction",
+                "mediaStatus": "extracted-locally-pending-repository-upload",
                 "objectives": [
                   "يرسم خطوطا في اتجاه محدد",
                   "يسمي أنواع الخطوط"
@@ -970,7 +970,7 @@
                 "exerciseNumber": 12,
                 "sourcePage": 24,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "pending-independent-extraction",
+                "mediaStatus": "extracted-locally-pending-repository-upload",
                 "objectives": [
                   "يرسم خطوطا في اتجاه محدد",
                   "يسمي أنواع الخطوط"
@@ -991,7 +991,7 @@
                 "exerciseNumber": 15,
                 "sourcePage": 27,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "pending-independent-extraction",
+                "mediaStatus": "extracted-locally-pending-repository-upload",
                 "objectives": [
                   "يرسم خطوطا في اتجاه محدد",
                   "يسمي أنواع الخطوط"
