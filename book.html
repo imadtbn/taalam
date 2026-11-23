@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#176b48">
+<title>أنشطة الكتاب — تعلّم</title><link rel="canonical" href="https://imadtbn.github.io/taalam/book.html">
+<style>
+:root{font-family:system-ui,"Noto Sans Arabic",Arial,sans-serif;color:#20352b;background:#f4f8f4;--green:#176b48;--line:#e0e9e2}
+*{box-sizing:border-box}body{margin:0;line-height:1.8}.top{background:linear-gradient(130deg,#103f2d,var(--green));color:white;padding:24px 16px}.wrap{width:min(980px,calc(100% - 28px));margin:auto}.top h1{margin:0;font-size:clamp(23px,4vw,34px)}.top p{margin:4px 0 0;color:#e0eee5}.back{display:inline-block;color:white;margin-bottom:10px}.summary{background:white;border:1px solid var(--line);border-radius:15px;padding:14px;margin:18px 0}.unit{margin:22px 0}.unit h2{font-size:22px;margin:0 0 8px}.lesson{background:white;border:1px solid var(--line);border-radius:14px;padding:14px;margin:10px 0}.lesson h3{margin:0 0 10px}.activity{border-top:1px solid var(--line);padding:12px 0}.activity:first-of-type{border-top:0}.activity summary{cursor:pointer;font-weight:750}.meta{color:#68786e;font-size:13px}.instruction{margin:8px 0}.tags{display:flex;gap:7px;flex-wrap:wrap}.tag{background:#edf5ef;border-radius:9px;padding:3px 9px;font-size:13px}.media{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-top:10px}.media figure{margin:0}.media img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid var(--line)}.media figcaption{font-size:13px;color:#62766a}.empty{background:#fff8e7;border:1px solid #eedcae;border-radius:10px;padding:10px;font-size:13px;color:#71531c}.objects{display:flex;flex-wrap:wrap;gap:7px;margin:8px 0}.object{background:#f1f4f1;border:1px solid var(--line);border-radius:8px;padding:3px 9px;font-size:14px}
+@media(max-width:520px){.lesson{padding:11px}.media{grid-template-columns:1fr}}
+</style></head>
+<body>
+<header class="top"><div class="wrap"><a class="back" href="./">العودة إلى المكتبة</a><h1 id="title">جارٍ تحميل الكتاب…</h1><p id="subtitle"></p></div></header>
+<main class="wrap"><section class="summary" id="summary" aria-live="polite">تحميل فهرس الأنشطة…</section><div id="content"></div></main>
+<script>
+const esc=value=>String(value??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const list=items=>Array.isArray(items)&&items.length?'<div class="objects">'+items.map(x=>'<span class="object">'+esc(x)+'</span>').join("")+'</div>':"";
+(async()=>{
+ const root=document.querySelector("#content");
+ try{
+  const res=await fetch("./content/books/taallamati-aloula-preparatory-arabic/book.json",{cache:"no-store"});
+  if(!res.ok) throw Error("تعذر تحميل بيانات الكتاب");
+  const book=await res.json(), activities=book.units.flatMap(u=>u.lessons.flatMap(l=>l.activities));
+  document.title=book.title+" — تعلّم";document.querySelector("#title").textContent=book.title;
+  document.querySelector("#subtitle").textContent="الطبعة الأولى · 2008 · التربية التحضيرية";
+  document.querySelector("#summary").textContent=activities.length+" نشاطاً مفهرساً في "+book.units.length+" قسمين. الأنشطة التي راجعت صفحاتها الأصلية موسومة بوضوح.";
+  root.innerHTML=book.units.map(unit=>'<section class="unit"><h2>'+esc(unit.title)+'</h2>'+unit.lessons.map(lesson=>'<article class="lesson"><h3>'+esc(lesson.title)+'</h3>'+lesson.activities.map(activity=>{
+   const d=activity.data||{},page=d.sourcePage?'<span class="tag">صفحة المصدر '+esc(d.sourcePage)+'</span>':"",status=d.transcriptionStatus==="page-reviewed"?"مراجَع من الصفحة الأصلية":"فهرسة أولية";
+   const media=(activity.media||[]).filter(m=>m.type==="image").map(m=>'<figure><img loading="lazy" src="'+esc(m.src)+'" alt="'+esc(m.alt||activity.title)+'"><figcaption>'+esc(m.caption||activity.title)+'</figcaption></figure>').join("");
+   const columns=d.picturedColumns?list(d.picturedColumns.left).replace('class="objects"','class="objects"')+list(d.picturedColumns.right):"";
+   const pairs=Array.isArray(d.matchingPairs)?list(d.matchingPairs.map(p=>p.word+" ← "+p.image)):"";
+   const items=list(d.picturedItems)+list(d.visualTasks);
+   const details=media?'<div class="media">'+media+'</div>':'<p class="empty">لم تُربط وسائط مستقلة بهذا النشاط بعد.</p>';
+   return '<details class="activity"><summary>'+esc(d.exerciseNumber?"التمرين "+d.exerciseNumber+": ":"")+esc(activity.title)+'</summary><div class="meta">'+page+' <span class="tag">'+status+'</span></div><p class="instruction">'+esc(activity.instructions)+'</p>'+items+columns+pairs+details+'</details>';
+  }).join("")+'</article>').join("")+'</section>').join("");
+ }catch(e){root.textContent=e.message;}
+})();
+</script></body></html>
