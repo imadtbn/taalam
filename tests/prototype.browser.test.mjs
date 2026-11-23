@@ -19,6 +19,12 @@ before(async () => {
         "/content/books/taallamati-aloula-preparatory-arabic/book.json": ["content/books/taallamati-aloula-preparatory-arabic/book.json", "application/json; charset=utf-8"],
         "/content/samples/reading-demo.json": ["content/samples/reading-demo.json", "application/json; charset=utf-8"]
       };
+      if (path.startsWith("/assets/media/") && !path.includes("..")) {
+        const relative = path.slice(1);
+        const content = await readFile(resolve(root, relative));
+        res.writeHead(200, { "content-type": "image/webp", "cache-control": "no-store" }); res.end(content);
+        return;
+      }
       if (!files[path]) { res.writeHead(404); res.end("Not found"); return; }
       const [relative, type] = files[path], content = await readFile(resolve(root, relative));
       res.writeHead(200, { "content-type": type, "cache-control": "no-store" }); res.end(content);
@@ -49,7 +55,17 @@ test("book index renders all source activities and exposes image references when
   await page.locator(".activity").first().waitFor();
   assert.match(await page.locator("#title").innerText(), /تعلماتي الأولى/);
   assert.equal(await page.locator(".activity").count(), 75);
-  assert.equal(await page.locator(".activity img").count(), 0, "No media has been linked to the JSON yet; keep this explicit until assets are committed.");
+  const images = page.locator(".activity img");
+  assert.equal(await images.count(), 39, "The 15 exercise pages and 24 extracted illustrations must be rendered.");
+  const imageResults = await page.evaluate(async () => {
+    const images = [...document.querySelectorAll(".activity img")];
+    return await Promise.all(images.map(async image => {
+      image.loading = "eager";
+      try { await image.decode(); } catch {}
+      return { src: image.getAttribute("src"), loaded: image.complete && image.naturalWidth > 0 };
+    }));
+  });
+  assert.ok(imageResults.every(image => image.loaded), `Broken exercise images: ${JSON.stringify(imageResults.filter(image => !image.loaded))}`);
   const dimensions = await page.evaluate(() => ({ viewport: document.documentElement.clientWidth, content: document.documentElement.scrollWidth }));
   assert.ok(dimensions.content <= dimensions.viewport, `Book page horizontal overflow: ${JSON.stringify(dimensions)}`);
   await page.close();
