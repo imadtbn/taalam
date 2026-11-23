@@ -8,7 +8,7 @@
   "edition": "الطبعة الأولى، 2008",
   "language": "ar",
   "direction": "rtl",
-  "contentVersion": "0.2.2",
+  "contentVersion": "0.2.3",
   "source": {
     "title": "تعلماتي الأولى في التربية التحضيرية: الأنشطة اللغوية",
     "publisher": "وزارة التربية الوطنية – الجمهورية الجزائرية الديمقراطية الشعبية",
@@ -36,7 +36,7 @@
                 "exerciseNumber": 1,
                 "sourcePage": 13,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "extracted-locally-pending-repository-upload",
+                "mediaStatus": "repository-uploaded-and-linked",
                 "objectives": [
                   "يفهم علاقة بين صورتين متشابهتين",
                   "يسمي بعض الأدوات المدرسية"
@@ -58,7 +58,15 @@
                   ]
                 }
               },
-              "media": []
+              "media": [
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/pages/exercise-01.webp",
+                  "alt": "صفحة التمرين رقم 1 من دفتر تعلماتي الأولى",
+                  "caption": "الصفحة الأصلية للتمرين رقم 1",
+                  "sourcePage": 13
+                }
+              ]
             },
             {
               "id": "exercise-02",
@@ -69,7 +77,7 @@
                 "exerciseNumber": 2,
                 "sourcePage": 14,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "extracted-locally-pending-repository-upload",
+                "mediaStatus": "repository-uploaded-and-linked",
                 "objectives": [
                   "يفهم علاقة بين صورتين متشابهتين",
                   "يسمي بعض الأدوات المنزلية"
@@ -91,7 +99,15 @@
                   ]
                 }
               },
-              "media": []
+              "media": [
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/pages/exercise-02.webp",
+                  "alt": "صفحة التمرين رقم 2 من دفتر تعلماتي الأولى",
+                  "caption": "الصفحة الأصلية للتمرين رقم 2",
+                  "sourcePage": 14
+                }
+              ]
             },
             {
               "id": "exercise-04",
@@ -102,7 +118,7 @@
                 "exerciseNumber": 4,
                 "sourcePage": 16,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "extracted-locally-pending-repository-upload",
+                "mediaStatus": "repository-uploaded-and-linked",
                 "objectives": [
                   "يفهم علاقة بين صورتين متشابهتين",
                   "يسمي بعض أواني المطبخ"
@@ -124,7 +140,15 @@
                   ]
                 }
               },
-              "media": []
+              "media": [
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/pages/exercise-04.webp",
+                  "alt": "صفحة التمرين رقم 4 من دفتر تعلماتي الأولى",
+                  "caption": "الصفحة الأصلية للتمرين رقم 4",
+                  "sourcePage": 16
+                }
+              ]
             },
             {
               "id": "exercise-05",
@@ -135,7 +159,7 @@
                 "exerciseNumber": 5,
                 "sourcePage": 17,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "extracted-locally-pending-repository-upload",
+                "mediaStatus": "repository-uploaded-and-linked",
                 "objectives": [
                   "يفهم علاقة بين صورتين متماثلتين",
                   "يسمي بعض العلامات والوسائل المكتوبة المصورة"
@@ -157,7 +181,15 @@
                   ]
                 }
               },
-              "media": []
+              "media": [
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/pages/exercise-05.webp",
+                  "alt": "صفحة التمرين رقم 5 من دفتر تعلماتي الأولى",
+                  "caption": "الصفحة الأصلية للتمرين رقم 5",
+                  "sourcePage": 17
+                }
+              ]
             },
             {
               "id": "exercise-07",
@@ -168,7 +200,7 @@
                 "exerciseNumber": 7,
                 "sourcePage": 19,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "extracted-locally-pending-repository-upload",
+                "mediaStatus": "repository-uploaded-and-linked",
                 "objectives": [
                   "يفهم علاقة بين صورتين متماثلتين",
                   "يفهم علاقة بين الدال والمدلول",
@@ -191,7 +223,15 @@
                   ]
                 }
               },
-              "media": []
+              "media": [
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/pages/exercise-07.webp",
+                  "alt": "صفحة التمرين رقم 7 من دفتر تعلماتي الأولى",
+                  "caption": "الصفحة الأصلية للتمرين رقم 7",
+                  "sourcePage": 19
+                }
+              ]
             },
             {
               "id": "exercise-08",
@@ -202,7 +242,7 @@
                 "exerciseNumber": 8,
                 "sourcePage": 20,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "extracted-locally-pending-repository-upload",
+                "mediaStatus": "repository-uploaded-and-linked",
                 "objectives": [
                   "يميز صوتا في كلمة",
                   "يستعمل مفردات"
@@ -221,7 +261,71 @@
                 "reviewNote": "الأسماء مستخرجة من الرسوم الظاهرة في الصفحة، وليست قائمة كلمات منطوقة مطبوعة. الكلمات المنطوقة/التسجيل الصوتي غير مرفقة في المصدر.",
                 "itemsRequireTeacherAudio": true
               },
-              "media": []
+              "media": [
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/pages/exercise-08.webp",
+                  "alt": "صفحة التمرين رقم 8 من دفتر تعلماتي الأولى",
+                  "caption": "الصفحة الأصلية للتمرين رقم 8",
+                  "sourcePage": 20
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-08-01-rabbit.webp",
+                  "alt": "رسم أرنب",
+                  "caption": "أرنب — عنصر مصوّر من التمرين 8",
+                  "sourcePage": 20
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-08-02-book.webp",
+                  "alt": "رسم كتاب",
+                  "caption": "كتاب — عنصر مصوّر من التمرين 8",
+                  "sourcePage": 20
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-08-03-door.webp",
+                  "alt": "رسم باب",
+                  "caption": "باب — عنصر مصوّر من التمرين 8",
+                  "sourcePage": 20
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-08-04-parrot.webp",
+                  "alt": "رسم ببغاء",
+                  "caption": "ببغاء — عنصر مصوّر من التمرين 8",
+                  "sourcePage": 20
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-08-05-cow.webp",
+                  "alt": "رسم بقرة",
+                  "caption": "بقرة — عنصر مصوّر من التمرين 8",
+                  "sourcePage": 20
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-08-06-mobile-phone.webp",
+                  "alt": "رسم هاتف محمول",
+                  "caption": "هاتف محمول — عنصر مصوّر من التمرين 8",
+                  "sourcePage": 20
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-08-07-grapes.webp",
+                  "alt": "رسم عنب",
+                  "caption": "عنب — عنصر مصوّر من التمرين 8",
+                  "sourcePage": 20
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-08-08-television.webp",
+                  "alt": "رسم تلفاز",
+                  "caption": "تلفاز — عنصر مصوّر من التمرين 8",
+                  "sourcePage": 20
+                }
+              ]
             },
             {
               "id": "exercise-10",
@@ -232,7 +336,7 @@
                 "exerciseNumber": 10,
                 "sourcePage": 22,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "extracted-locally-pending-repository-upload",
+                "mediaStatus": "repository-uploaded-and-linked",
                 "objectives": [
                   "يربط الصورة بالكلمة",
                   "يفهم علاقة بين الدال والمدلول",
@@ -261,7 +365,15 @@
                   }
                 ]
               },
-              "media": []
+              "media": [
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/pages/exercise-10.webp",
+                  "alt": "صفحة التمرين رقم 10 من دفتر تعلماتي الأولى",
+                  "caption": "الصفحة الأصلية للتمرين رقم 10",
+                  "sourcePage": 22
+                }
+              ]
             },
             {
               "id": "exercise-11",
@@ -272,7 +384,7 @@
                 "exerciseNumber": 11,
                 "sourcePage": 23,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "extracted-locally-pending-repository-upload",
+                "mediaStatus": "repository-uploaded-and-linked",
                 "objectives": [
                   "يميز صوتا في كلمة",
                   "يستعمل مفردات"
@@ -291,7 +403,71 @@
                 "reviewNote": "الأسماء أوصاف للرسوم الظاهرة فقط؛ لا توجد قائمة كلمات منطوقة أو مادة صوتية مطبوعة في الصفحة.",
                 "itemsRequireTeacherAudio": true
               },
-              "media": []
+              "media": [
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/pages/exercise-11.webp",
+                  "alt": "صفحة التمرين رقم 11 من دفتر تعلماتي الأولى",
+                  "caption": "الصفحة الأصلية للتمرين رقم 11",
+                  "sourcePage": 23
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-11-01-dates.webp",
+                  "alt": "رسم عنقود تمر",
+                  "caption": "عنقود تمر — عنصر مصوّر من التمرين 11",
+                  "sourcePage": 23
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-11-02-electric-drill.webp",
+                  "alt": "رسم مثقاب كهربائي",
+                  "caption": "مثقاب كهربائي — عنصر مصوّر من التمرين 11",
+                  "sourcePage": 23
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-11-03-grape-cluster.webp",
+                  "alt": "رسم عنقود عنب",
+                  "caption": "عنقود عنب — عنصر مصوّر من التمرين 11",
+                  "sourcePage": 23
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-11-04-apple.webp",
+                  "alt": "رسم تفاحة",
+                  "caption": "تفاحة — عنصر مصوّر من التمرين 11",
+                  "sourcePage": 23
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-11-05-necklace.webp",
+                  "alt": "رسم قلادة",
+                  "caption": "قلادة — عنصر مصوّر من التمرين 11",
+                  "sourcePage": 23
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-11-06-helicopter.webp",
+                  "alt": "رسم طائرة مروحية",
+                  "caption": "طائرة مروحية — عنصر مصوّر من التمرين 11",
+                  "sourcePage": 23
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-11-07-television.webp",
+                  "alt": "رسم تلفاز",
+                  "caption": "تلفاز — عنصر مصوّر من التمرين 11",
+                  "sourcePage": 23
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-11-08-crocodile.webp",
+                  "alt": "رسم تمساح",
+                  "caption": "تمساح — عنصر مصوّر من التمرين 11",
+                  "sourcePage": 23
+                }
+              ]
             },
             {
               "id": "exercise-13",
@@ -302,7 +478,7 @@
                 "exerciseNumber": 13,
                 "sourcePage": 25,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "extracted-locally-pending-repository-upload",
+                "mediaStatus": "repository-uploaded-and-linked",
                 "objectives": [
                   "يربط الصورة بالكلمة",
                   "يفهم علاقة بين الدال والمدلول",
@@ -331,7 +507,15 @@
                   }
                 ]
               },
-              "media": []
+              "media": [
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/pages/exercise-13.webp",
+                  "alt": "صفحة التمرين رقم 13 من دفتر تعلماتي الأولى",
+                  "caption": "الصفحة الأصلية للتمرين رقم 13",
+                  "sourcePage": 25
+                }
+              ]
             },
             {
               "id": "exercise-14",
@@ -342,7 +526,7 @@
                 "exerciseNumber": 14,
                 "sourcePage": 26,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "extracted-locally-pending-repository-upload",
+                "mediaStatus": "repository-uploaded-and-linked",
                 "objectives": [
                   "يميز صوتا في كلمة",
                   "يستعمل مفردات"
@@ -361,7 +545,71 @@
                 "itemsRequireTeacherAudio": true,
                 "reviewNote": "الأسماء أوصاف للرسوم الظاهرة فقط؛ لا توجد قائمة كلمات منطوقة أو مادة صوتية مطبوعة في الصفحة."
               },
-              "media": []
+              "media": [
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/pages/exercise-14.webp",
+                  "alt": "صفحة التمرين رقم 14 من دفتر تعلماتي الأولى",
+                  "caption": "الصفحة الأصلية للتمرين رقم 14",
+                  "sourcePage": 26
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-14-01-camel.webp",
+                  "alt": "رسم جمل",
+                  "caption": "جمل — عنصر مصوّر من التمرين 14",
+                  "sourcePage": 26
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-14-02-man.webp",
+                  "alt": "رسم رجل",
+                  "caption": "رجل — عنصر مصوّر من التمرين 14",
+                  "sourcePage": 26
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-14-03-chicken.webp",
+                  "alt": "رسم دجاجة",
+                  "caption": "دجاجة — عنصر مصوّر من التمرين 14",
+                  "sourcePage": 26
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-14-04-moon.webp",
+                  "alt": "رسم قمر",
+                  "caption": "قمر — عنصر مصوّر من التمرين 14",
+                  "sourcePage": 26
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-14-05-carrot.webp",
+                  "alt": "رسم جزرة",
+                  "caption": "جزرة — عنصر مصوّر من التمرين 14",
+                  "sourcePage": 26
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-14-06-star.webp",
+                  "alt": "رسم نجمة",
+                  "caption": "نجمة — عنصر مصوّر من التمرين 14",
+                  "sourcePage": 26
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-14-07-drum.webp",
+                  "alt": "رسم طبل",
+                  "caption": "طبل — عنصر مصوّر من التمرين 14",
+                  "sourcePage": 26
+                },
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/elements/exercise-14-08-tree.webp",
+                  "alt": "رسم شجرة",
+                  "caption": "شجرة — عنصر مصوّر من التمرين 14",
+                  "sourcePage": 26
+                }
+              ]
             },
             {
               "id": "exercise-16",
@@ -907,7 +1155,7 @@
                 "exerciseNumber": 3,
                 "sourcePage": 15,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "extracted-locally-pending-repository-upload",
+                "mediaStatus": "repository-uploaded-and-linked",
                 "objectives": [
                   "يرسم خطوطا في اتجاه محدد",
                   "يسمي أنواع الخطوط"
@@ -917,7 +1165,15 @@
                   "أكمل الخطوط المتقطعة داخل السطور وفق الأسهم"
                 ]
               },
-              "media": []
+              "media": [
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/pages/exercise-03.webp",
+                  "alt": "صفحة التمرين رقم 3 من دفتر تعلماتي الأولى",
+                  "caption": "الصفحة الأصلية للتمرين رقم 3",
+                  "sourcePage": 15
+                }
+              ]
             },
             {
               "id": "exercise-06",
@@ -928,7 +1184,7 @@
                 "exerciseNumber": 6,
                 "sourcePage": 18,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "extracted-locally-pending-repository-upload",
+                "mediaStatus": "repository-uploaded-and-linked",
                 "objectives": [
                   "يرسم خطوطا في اتجاه محدد",
                   "يسمي أنواع الخطوط"
@@ -938,7 +1194,15 @@
                   "أكمل أنماط الخطوط داخل المستطيلات حسب الأسهم"
                 ]
               },
-              "media": []
+              "media": [
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/pages/exercise-06.webp",
+                  "alt": "صفحة التمرين رقم 6 من دفتر تعلماتي الأولى",
+                  "caption": "الصفحة الأصلية للتمرين رقم 6",
+                  "sourcePage": 18
+                }
+              ]
             },
             {
               "id": "exercise-09",
@@ -949,7 +1213,7 @@
                 "exerciseNumber": 9,
                 "sourcePage": 21,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "extracted-locally-pending-repository-upload",
+                "mediaStatus": "repository-uploaded-and-linked",
                 "objectives": [
                   "يرسم خطوطا في اتجاه محدد",
                   "يسمي أنواع الخطوط"
@@ -959,7 +1223,15 @@
                   "أكمل الخطوط المائلة المتقطعة داخل السطرين حسب الأسهم"
                 ]
               },
-              "media": []
+              "media": [
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/pages/exercise-09.webp",
+                  "alt": "صفحة التمرين رقم 9 من دفتر تعلماتي الأولى",
+                  "caption": "الصفحة الأصلية للتمرين رقم 9",
+                  "sourcePage": 21
+                }
+              ]
             },
             {
               "id": "exercise-12",
@@ -970,7 +1242,7 @@
                 "exerciseNumber": 12,
                 "sourcePage": 24,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "extracted-locally-pending-repository-upload",
+                "mediaStatus": "repository-uploaded-and-linked",
                 "objectives": [
                   "يرسم خطوطا في اتجاه محدد",
                   "يسمي أنواع الخطوط"
@@ -980,7 +1252,15 @@
                   "تتبع الدوائر داخل السطور منقطة إلى واضحة"
                 ]
               },
-              "media": []
+              "media": [
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/pages/exercise-12.webp",
+                  "alt": "صفحة التمرين رقم 12 من دفتر تعلماتي الأولى",
+                  "caption": "الصفحة الأصلية للتمرين رقم 12",
+                  "sourcePage": 24
+                }
+              ]
             },
             {
               "id": "exercise-15",
@@ -991,7 +1271,7 @@
                 "exerciseNumber": 15,
                 "sourcePage": 27,
                 "transcriptionStatus": "page-reviewed",
-                "mediaStatus": "extracted-locally-pending-repository-upload",
+                "mediaStatus": "repository-uploaded-and-linked",
                 "objectives": [
                   "يرسم خطوطا في اتجاه محدد",
                   "يسمي أنواع الخطوط"
@@ -1001,7 +1281,15 @@
                   "أكمل تتبع الدوائر داخل السطرين التاليين مع احترام اتجاه السهم"
                 ]
               },
-              "media": []
+              "media": [
+                {
+                  "type": "image",
+                  "src": "assets/media/taallamati-aloula-preparatory-arabic/pages/exercise-15.webp",
+                  "alt": "صفحة التمرين رقم 15 من دفتر تعلماتي الأولى",
+                  "caption": "الصفحة الأصلية للتمرين رقم 15",
+                  "sourcePage": 27
+                }
+              ]
             },
             {
               "id": "exercise-18",
